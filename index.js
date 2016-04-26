@@ -7,7 +7,7 @@
  * https://developers.google.com/mobile/articles/fast_buttons#ghost
 */
 
-export function preventGhosts (element) {
+module.exports = function (element) {
   if (!element) { return; }
 
   var coordinates = [],
